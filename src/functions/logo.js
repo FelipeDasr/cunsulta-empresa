@@ -1,5 +1,3 @@
-const clear = require("cli-clear")
-
 module.exports = (clear_ = 0) => {
 
   if (clear_) console.clear()
