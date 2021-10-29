@@ -1,0 +1,29 @@
+{
+  "name": "capture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Felipe Dasr",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "enquirer": "^2.3.6",
+    "inquirer": "^8.1.2",
+    "moment": "^2.29.1",
+    "validator-brazil": "^1.2.2",
+    "whois-json": "^2.0.4"
+  },
+  "bin": "./src/index.js",
+  "pkg": {
+    "assets": [
+      "./src/**/*"
+    ],
+    "target": [
+      "node16"
+    ]
+  }
+}
